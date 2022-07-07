@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Turnen</string>
+    <string name="navigationDrawerOpen">Open Navigation Drawer</string>
+    <string name="navigationDrawerClose">Close Navigation Drawer</string>
+    <string name="TimePickerBeginning">Select beginning</string>
+    <string name="TimePickerEnd">Select ending</string>
+    <string name="selectDays">Please select days</string>
+    <string name="missing">Missing</string>
+    <string name="contentDescDays">Days to select</string>
+    <string name="currentFixtures">Current fixtures:</string>
+    <string name="contentDescNewFixture">Generate new fixture</string>
+    <string name="name">Name</string>
+    <string name="role">Role</string>
+    <string name="salary">Salary</string>
+    <string name="contentDescAvatar">Avatar</string>
+    <string name="pickDays">Pick your day(s):</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="contentDscArrowLeft">Leftarrow</string>
+    <string name="showAll">Show all</string>
+    <string name="notSet">Nicht festgelegt</string>
+    <string name="authenticateShowIBAN">Authenticate before displaying the IBAN</string>
+    <string name="authenticateSetIBAN">Authenticate before setting the IBAN</string>
+    <string name="selectBillingPeriod">Select billing period</string>
+    <string name="addNew">New</string>
+    <string name="selectDate">Select date</string>
+    <string name="selectTime">Select time</string>
+</resources>

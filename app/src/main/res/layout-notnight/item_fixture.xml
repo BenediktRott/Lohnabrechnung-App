@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fixtureLayout"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:background="@drawable/circle_corner">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fixtureLayoutInner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgViewBillingPeriodIcon"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:src="@drawable/ic_event"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtViewBillingPeriodDate"
+            app:layout_constraintBottom_toBottomOf="@id/txtViewBillingPeriodDate"/>
+
+        <TextView
+            android:id="@+id/txtViewBillingPeriodDate"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:text="Mo"
+            android:textSize="20sp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@id/imgViewBillingPeriodIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/grey_700"
+            />
+
+
+        <TextView
+            android:id="@+id/txtViewTimeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="18:00"
+            app:layout_constraintBottom_toBottomOf="@+id/txtViewBillingPeriodDate"
+            app:layout_constraintStart_toEndOf="@+id/txtViewBillingPeriodDate"
+            app:layout_constraintTop_toTopOf="@+id/txtViewBillingPeriodDate"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200"/>
+
+        <TextView
+            android:id="@+id/txtViewTimeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="20:00"
+            app:layout_constraintBottom_toBottomOf="@+id/txtViewTimeStart"
+            app:layout_constraintStart_toEndOf="@+id/txtViewTimeStart"
+            app:layout_constraintTop_toTopOf="@+id/txtViewTimeStart"
+            android:textSize="20sp"
+            android:textColor="@color/grey_700"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

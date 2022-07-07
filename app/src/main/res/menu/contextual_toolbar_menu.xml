@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/contextualDelete"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete" />
+    <item
+        android:id="@+id/contextualDisable"
+        android:icon="@drawable/ic_disable_time"
+        android:title="Disable" />
+</menu>

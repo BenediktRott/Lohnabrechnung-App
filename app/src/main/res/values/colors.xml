@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FF111111</color>
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_1000">#181818</color>
+    <color name="lightBlue_100">#b3e5fc</color>
+    <color name="lightBlue_200">#81D4FA</color>
+    <color name="lightBlue_300">#4fc3f7</color>
+    <color name="lightBlue_400">#2ab6f6</color>
+    <color name="lightBlue_500">#07a8f4</color>
+    <color name="lightBlue_700">#0587D1</color>
+    <color name="lightMagenta_200">#FA81D4</color>
+
+    <color name="indigo_200">#b794f6</color>
+    <color name="indigo_300">#9965f4</color>
+    <color name="indigo_400">#7e44f2</color>
+    <color name="indigo_500">#6014ee</color>
+    <color name="indigo_700">#3d00e0</color>
+    <color name="pink_200">#f186c0</color>
+    <color name="pink_300">#ef4fa6</color>
+    <color name="pink_700">#c7006e</color>
+    
+    <color name="blueCold_300">#6985c6</color>
+    <color name="blueCold_700">#00419c</color>
+    <color name="redCold_300">#cb6d87</color>
+    <color name="redCold_500">#c23b5a</color>
+    <color name="redCold_700">#9e3350</color>
+
+    <color name="headerBackground">@color/grey_900</color>
+    <color name="drawerBackground">@color/grey_1000</color>
+    <color name="textColorHeader">@color/white</color>
+
+    <color name="fixtureTextColor">@color/grey_400</color>
+    <color name="fixtureBackgroundColor">@color/grey_900</color>
+    <color name="fixtureOutlineColor">@color/grey_800</color>
+    <color name="statusbarColor">@color/lightBlue_200</color>
+    <color name="homeBottomColor">@color/grey_1000</color>
+    <color name="menuIcon">@color/grey_900</color>
+    <color name="toolbarColor">@color/lightBlue_200</color>
+
+
+    <color name="dayPickerTextColorOnPrimary">@color/grey_900</color>
+    <color name="dayPickerTextColorOnTransparent">@color/grey_400</color>
+
+    <color name="calendarNotCurrentMonth">@color/grey_700</color>
+    <color name="calendarOutlineColor">@color/white</color>
+
+    <color name="calendarHighlight">@color/pink_300</color>
+</resources>

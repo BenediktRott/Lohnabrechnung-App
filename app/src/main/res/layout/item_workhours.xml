@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtViewItemWorkhoursDate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="bis 25.12.21:"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:id="@+id/txtViewItemWorkhours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10h 35min"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="38dp" />
+</LinearLayout>

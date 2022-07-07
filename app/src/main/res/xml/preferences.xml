@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:textAlignment="center"
+        android:title="Settings"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:key="edtTxtSetName"
+            android:title="Name"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false" />
+        <EditTextPreference
+            android:key="edtTxtSetRole"
+            android:title="Rolle"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+        <EditTextPreference
+            android:key="edtTxtSetSalary"
+            android:title="Lohn"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+        <EditTextPreference
+            android:id = "@+id/edtTxtSetIBAN"
+            android:key="edtTxtSetIBAN"
+            android:title="IBAN"
+            android:summary="@string/notSet"
+            app:iconSpaceReserved="false" />
+        <SwitchPreference
+            android:key="edtTxtShowIBAN"
+            android:title="IBAN temporär anzeigen"
+            app:iconSpaceReserved="false" />
+        <SwitchPreference
+            android:key="switchPrefSetSignature"
+            android:title="Signatur zu Dateien hinzufügen"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

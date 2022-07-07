@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FFFFFF</color>
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_1000">#181818</color>
+    <color name="lightBlue_200">#81D4FA</color>
+    <color name="lightBlue_700">#0587D1</color>
+    <color name="lightMagenta_200">#FA81D4</color>
+    <color name="fixtureTextColor">@color/grey_700</color>
+    <color name="fixtureBackgroundColor">@color/grey_200</color>
+    <color name="fixtureOutlineColor">@color/grey_400</color>
+    <color name="statusbarColor">@color/blueCold_300</color>
+    <color name="homeBottomColor">@color/grey_100</color>
+
+    <color name="toolbarColor">@color/statusbarColor</color>
+    <color name="menuIcon">@color/white</color>
+
+    <color name="headerBackground">@color/grey_200</color>
+    <color name="drawerBackground">@color/white</color>
+    <color name="textColorHeader">@color/black</color>
+
+
+    <color name="dayPickerTextColorOnPrimary">@color/white</color>
+    <color name="dayPickerTextColorOnTransparent">@color/grey_700</color>
+
+    <color name="calendarNotCurrentMonth">@color/grey_400</color>
+    <color name="calendarOutlineColor">@color/grey_600</color>
+
+    <color name="calendarHighlight">@color/lightMagenta_200</color>
+</resources>

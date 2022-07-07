@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuHome"
+            android:checked="true"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/menuProfile"
+            android:title="Profil" />
+
+        <item
+            android:id="@+id/menuSetZeiten"
+            android:title="Zeiten festlegen" />
+
+        <item
+            android:id="@+id/menuSettings"
+            android:title="Einstellungen" />
+
+    </group>
+
+    <item
+        android:id="@+id/menuExport"
+        android:title="Export" />
+
+    <item
+        android:id="@+id/menuShare"
+        android:title="Teilen" />
+
+    <item
+        android:id="@+id/menuTest"
+        android:title="Test" />
+
+
+
+</menu>
