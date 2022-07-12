@@ -1,5 +1,7 @@
 package com.example.turnen;
 
+import static java.time.temporal.ChronoUnit.DAYS;
+
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.YearMonth;
@@ -114,5 +116,9 @@ public abstract class DateHandler {
         LocalDate date1 = toLocalDate(date);
         LocalDate date2 = LocalDate.of(monthYear[1], monthYear[0], day);
         return date1.equals(date2);
+    }
+
+    public static int daysFromCurrent(LocalDate selectedDate){
+        return (int) DAYS.between(selectedDate, LocalDate.now());
     }
 }

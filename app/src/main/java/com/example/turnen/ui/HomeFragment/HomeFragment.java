@@ -1,5 +1,7 @@
 package com.example.turnen.ui.HomeFragment;
 
+import static java.time.temporal.ChronoUnit.DAYS;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -231,6 +233,20 @@ public class HomeFragment extends Fragment {
                     txtViewDate.setText(homeViewModel.getDate());
                     txtViewTime.setText(homeViewModel.getTime());
                     txtViewCurrentPeriod.setText(homeViewModel.getPeriod());
+
+                    LocalDate first = LocalDate.now();
+
+                    if(homeViewModel.calendarDates[0][0] > 1){
+                        first = LocalDate.of(DateHandler.offsetMonth(homeViewModel.month, homeViewModel.year, -1)[1],
+                                DateHandler.offsetMonth(homeViewModel.month, homeViewModel.year, -1)[0], homeViewModel.calendarDates[0][0]);
+                    }else if(homeViewModel.calendarDates[0][0] == 1){
+                        first = LocalDate.of(homeViewModel.year, homeViewModel.month, homeViewModel.calendarDates[1][0]);
+                    }else{
+                        Toast.makeText(getContext(), "Something went wrong updating the calendar", Toast.LENGTH_SHORT).show();
+                    }
+                    attendanceCalendarAdapter.chosenPos = (int) DAYS.between(first, selectedDate) + 7;
+                    Log.d("Chosen", "Date is" + first.toString() + attendanceCalendarAdapter.chosenPos);
+                    attendanceCalendarAdapter.notifyDataSetChanged();
                 }
             });
         });
