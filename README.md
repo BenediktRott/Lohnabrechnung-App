@@ -8,7 +8,7 @@ Die App funktioniert ausschließlich auf Android, nicht IOS.
 
 # Wie es funktioniert
 
-Die regulären Arbeits-/Trainingszeiten, Zeiten zu denen man tatsächlich anwesend war und Abrechnungszeiträume werden in SQLite Datenbanken unverschlüsselt gespeichert. Zur Sicherheit werden diese regelmäßig per Google Autobackup gesichert. Alles was in den Einstellungen festgelegt wird wird **verschlüsselt** durch EncryptedSharedPreferences ausschließlich lokal gespeichert und nicht durch das backup gesichert.
+Die regulären Arbeits-/Trainingszeiten, Zeiten zu denen man tatsächlich anwesend war und Abrechnungszeiträume werden in lokalen SQLite Datenbanken unverschlüsselt gespeichert. Zur Sicherheit werden diese regelmäßig per Google Autobackup gesichert. Alles was in den Einstellungen festgelegt wird wird **verschlüsselt** durch EncryptedSharedPreferences ausschließlich lokal gespeichert und nicht durch das backup gesichert.
 
 # Wie installiere ich die App
 
